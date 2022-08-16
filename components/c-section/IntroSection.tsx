@@ -24,7 +24,7 @@ const IntroSection = (props: Props) => {
           <img
             src="/LandingPage/intro-photo.png"
             alt="ncx exchange trading view"
-            width={600}
+            // width={600}
           />
         </div>
       </div>

@@ -33,7 +33,7 @@ const ChooseSection = (props: Props) => {
         <h1>Why NCX?</h1>
         <div className="whyItemList">
           {reason.map((d, i) => (
-            <div className="whyItemContainer">
+            <div key={i} className="whyItemContainer">
               <img src={d.src} alt={d.alt} width={250} height={250} />
               <h2>{d.title}</h2>
               <p>{d.description}</p>

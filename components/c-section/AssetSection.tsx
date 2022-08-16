@@ -71,7 +71,7 @@ const AssetSection = (props: Props) => {
       </p>
       <div className="assetListContainer">
         {coin.map((d, i) => (
-          <div className="cryptoCard">
+          <div key={i} className="cryptoCard">
             <img
               src="/LandingPage/bitcoin-ic 2.png"
               alt="bitcoin"
