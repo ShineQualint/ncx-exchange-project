@@ -1,0 +1,47 @@
+/* ------ FEATURES ------ */
+.featuresContainer {
+  background-color: #eff0f4;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin-top: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #808080;
+}
+
+.featuresCardContainer {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

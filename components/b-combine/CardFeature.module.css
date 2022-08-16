@@ -1,0 +1,38 @@
+.cardFeature {
+  width: 296px;
+  height: 343px;
+  border-radius: 18px;
+  border-width: 3px;
+  border-color: #eaeaea;
+  border-style: solid;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textFeatureContainer {
+  width: 238px;
+  height: 150px;
+}
+
+.textFeatureContainer p {
+  color: #808080;
+}
+
+.textFeature h1 {
+  background-color: white;
+}
+
+.textFeature p {
+  background-color: white;
+}
+
+.featureExplained {
+  display: flex;
+  flex-direction: row;
+}
+
+.featureExplained p {
+  color: #2fc482;
+}

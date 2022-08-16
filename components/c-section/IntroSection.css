@@ -1,0 +1,59 @@
+/* ------ INTRO -----  */
+.introContainer {
+  background-color: #2f3758;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.introTextGroup {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.introTextGroup h1 {
+  width: 380px;
+  color: white;
+  font-size: 36px;
+  margin: 0px;
+  letter-spacing: 0.1rem;
+}
+
+.introTextGroup p {
+  width: 500px;
+  color: white;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+}
+
+.introTextCard {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.introPhoto {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneBorder {
+  width: 370px;
+  height: 750px;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  border-color: white;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

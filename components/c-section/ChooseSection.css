@@ -1,0 +1,46 @@
+/* -------- WHY CHOOSE WE ------ */
+.whyContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2fc482;
+}
+
+.whyContent {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyDescContainer {
+  height: 300px;
+  background-color: pink;
+}
+
+.whyTitle {
+  background-color: blue;
+}
+
+.whyTitle,
+.whyContent,
+.whyDescContainer {
+  width: 90%;
+}
+
+.whyHead {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: orange;
+}
+
+.whyDescription {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: yellow;
+}
