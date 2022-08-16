@@ -11,10 +11,8 @@ const IntroSection = (props: Props) => {
           <div className="introTextCard">
             <h1>Easiest way to mining your bitcoin</h1>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum, libero sint aliquid quos quis quidem? Earum
-              perferendis deserunt corporis asperiores nam incidunt, quaerat non
-              facere porro dignissimos expedita est tempore?
+              Sign up today to easily buy 100+ cryptocurrencies. Get started in
+              minutes with as little as $10.
             </p>
             <Button
               title="Get Started"
@@ -23,9 +21,11 @@ const IntroSection = (props: Props) => {
           </div>
         </div>
         <div className="introPhoto">
-          <div className="phoneBorder">
-            <h1>phone photo</h1>
-          </div>
+          <img
+            src="/LandingPage/intro-photo.png"
+            alt="ncx exchange trading view"
+            width={600}
+          />
         </div>
       </div>
     </section>

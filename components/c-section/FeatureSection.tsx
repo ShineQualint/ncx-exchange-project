@@ -33,6 +33,7 @@ const arrFeatures = [
 const FeatureSection = (props: Props) => {
   return (
     <section className="featuresContainer">
+      <img src="/LandingPage/wave-bottom.svg" alt="wave of ncx exchange" />
       <h1 className="title">Exchange Features</h1>
       <p className="description">
         Explore sensational features to prepare your best investment in
@@ -43,6 +44,7 @@ const FeatureSection = (props: Props) => {
           <CardFeature key={i} title={d.title} description={d.description} />
         ))}
       </div>
+      <img src="/LandingPage/wave-top.svg" alt="wave of ncx exchange" />
     </section>
   );
 };

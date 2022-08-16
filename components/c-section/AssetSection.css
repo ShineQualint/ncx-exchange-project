@@ -1,5 +1,78 @@
 /* -------- ASSET LIST ------ */
+.assetContainer {
+  /* height: 120vh; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fafaff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.assetContainer h3 {
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+
+}
+
+.assetContainer h1 {
+  margin-bottom: 30px;
+  color: #2fc482;
+}
+
+.assetContainer p {
+  margin-top: 0px;
+  letter-spacing: 0.01rem;
+  margin-bottom: 50px;
+}
+
+.assetContainer h1 {
+  letter-spacing: 0.1rem;
+  font-size: 56px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
 .assetListContainer {
-  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.cryptoCard {
+  width: 300px;
+  height: 230px;
   background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+  box-shadow: 3px 2px rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cryptoCard img{
+  margin-bottom: 20px;
+}
+
+.cryptoCard h2{
+  font-size: 22px;
+  letter-spacing: 0.08rem;
+}
+
+.cryptoCard h3{
+  font-size: 18px;
+  letter-spacing: 0.01rem;
+}
+
+.cryptoCard h3,
+.cryptoCard h2{
+  margin-top: 0px;
 }

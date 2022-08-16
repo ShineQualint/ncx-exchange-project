@@ -16,8 +16,13 @@
   height: 150px;
 }
 
+.textFeatureContainer h1 {
+  letter-spacing: 0.03rem;
+}
+
 .textFeatureContainer p {
   color: #808080;
+  letter-spacing: 0.02rem;
 }
 
 .textFeature h1 {
